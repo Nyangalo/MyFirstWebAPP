@@ -1,12 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>My Web Application</title>
-</head>
-<body>
+    <head>
+        <title>Search</title>
+        <style> 
+            #new {
+                text-align: center;
+                padding: 200px;
+                float: center;
+                display: block;
 
-<h1 align="center">This is the first commitment i make for web development</h1>
-     <h2 align="center"> A BIT OF MY BIOGRAPHY </h2>
-</body>
+            }
+
+            #foo{
+                  width: 300px;
+                  margin-top: 8px;
+                  margin-right: 16px;
+
+            }
+            #search{
+                width: 200px;
+                float: center;
+                padding: 14px 16px;
+                background-color: transparent;
+                color: orangered;
+
+            }
+
+        </style>
+        
+    </head>
+    <body>
+        <form  action="https://google.com/search" id="new">
+            <input type="text" name="q" id="foo">
+            <input type="submit" value="Google Search" id="search">
+        </form>
+    </body>
 </html>
